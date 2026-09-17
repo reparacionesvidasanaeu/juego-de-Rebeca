@@ -61,15 +61,3 @@ function retoValores2() {
         </div>
     `;
 }
-
-function ganarGema2() {
-    actualizarGemas();
-    pantalla.innerHTML = `
-        <div class="card">
-            <div style="font-size: 5rem;">🔵</div>
-            <h2>¡Gema de la Honestidad!</h2>
-            <p>¡Has ganado tu segunda gema: la Gema Azul! 🤝✨</p>
-            <button class="btn btn-principal" onclick="alert('¡Dos niveles listos! Rebeca es una excelente Guardiana.')">¡Siguiente Nivel Próximamente! 🚀</button>
-        </div>
-    `;
-}
