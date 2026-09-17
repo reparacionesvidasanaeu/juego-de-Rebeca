@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Esta línea es clave para que se adapte a celulares y tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Las Gemas del Corazón</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>💎 Las Gemas del Corazón 💎</h1>
+            <p class="subtitle">¡Ayuda a la Guardiana a restaurar el mundo!</p>
+            <div class="score-board">Gemas: <span id="gemas-count">0</span>/4</div>
+        </header>
+
+        <main id="pantalla-juego">
+            <div class="card animated-card">
+                <h2>¡Bienvenida, Guardiana!</h2>
+                <p>Tu aventura comienza en el <strong>Bosque de la Empatía</strong>. ¿Estás lista para tu primer reto?</p>
+                <button class="btn btn-principal" onclick="iniciarMision()">¡Iniciar Aventura! 🚀</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
